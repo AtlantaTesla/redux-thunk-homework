@@ -1,11 +1,13 @@
 import React from 'react';
+import MyYoutube from './components/MyYoutube';
+import { Container } from '@material-ui/core';
 
 function App() {
-  return (
-    <div className="app">
-      Пример, приложения
-    </div>
-  );
+    return (
+        <Container maxWidth="md">
+            <MyYoutube />
+        </Container>
+    );
 }
 
 export default App;
